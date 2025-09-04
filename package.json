@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "@cloudflare/ai": "^1.0.14",
-    "hono": "^4.8.9"
+    "hono": "^4.9.6"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230914.0",
