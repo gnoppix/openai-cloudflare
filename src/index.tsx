@@ -21,7 +21,8 @@ export default {
       }));
 
       // Run the AI model with the messages and store the result
-      const result = await env.AI.run('@cf/meta/llama-3-8b-instruct', {
+      // const result = await env.AI.run('@cf/meta/llama-3-8b-instruct', {
+	 const result = await env.AI.run('@cf/openai/gpt-oss-120b', {
         messages: messages,
       });
 
